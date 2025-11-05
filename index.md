@@ -15,7 +15,7 @@ layout: page
 <HeroSection>
   <div 
     className="flex flex-col items-start p-10 md:p-20 text-white min-h-[60vh] relative overflow-hidden bg-cover bg-center" 
-    style={{ backgroundImage: `url('/images/abstracfondo.png')`, backgroundColor: '#19194d' }}
+    style={{ backgroundImage: `url('abstracfondo.png')`, backgroundColor: '#19194d' }}
   >
     
     {/* Contenido de Texto */}
