@@ -1,8 +1,12 @@
+import CustomHero from './components/CustomHero.jsx'
+
 ---
 title: We are Creative Agency
 description: La landing page principal de tu agencia.
 layout: page
 ---
+
+<CustomHero>
 
 <HeroSection>
   <div
