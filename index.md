@@ -1,21 +1,14 @@
 ---
-# FRONTMATTER (Metadatos)
-# Ajusta esto en la primera línea de tu archivo
+# FRONTMATTER (Metadatos) - Solo un bloque permitido
 title: We are Creative Agency
 description: La landing page principal de tu agencia.
-layout: page # Usa un layout de página estándar
----
----
-# FRONTMATTER (Metadatos)
-title: We are Creative Agency
-description: La landing page principal de tu agencia.
-layout: page 
+layout: page
 ---
 
 <HeroSection>
-  <div 
-    className="flex flex-col items-start p-10 md:p-20 text-white min-h-[60vh] relative overflow-hidden bg-cover bg-center" 
-    style={{ backgroundImage: `url('/abstracfondo.png')`, backgroundColor: '#19194d' }}
+  <div
+    className="flex flex-col items-start p-10 md:p-20 text-white min-h-[60vh] relative overflow-hidden bg-cover bg-center"
+    style={{ backgroundImage: "url('/abstracfondo.png')", backgroundColor: '#19194d' }}
   >
     
     {/* Contenido de Texto */}
@@ -36,7 +29,7 @@ layout: page
         className="flex-grow p-4 text-gray-800 rounded-l-md border-2 border-white focus:outline-none" 
       />
       <button className="bg-blue-600 p-4 rounded-r-md hover:bg-blue-700">
-        🔍 
+        🔍
       </button>
     </div>
 
@@ -52,6 +45,8 @@ layout: page
 
   </div>
 </HeroSection>
+
+---
 
 ## Nuestro Trabajo Reciente
 Aquí puedes añadir más contenido en Markdown.
