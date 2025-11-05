@@ -14,8 +14,9 @@ layout: page
       Creative Agency.
     </h1>
     <p className="text-lg mb-8 max-w-lg z-10">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor.
+    asdasdasdasd
+    asdasd
+    aasdasd
     </p>
 
     <div className="flex w-full max-w-lg mb-8 z-10">
