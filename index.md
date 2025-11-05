@@ -5,6 +5,7 @@ layout: page
 ---
 
 <HeroSection>
+  {/* Bloque Superior Oscuro (Hero) */}
   <div
     className="flex flex-col items-center justify-center pt-20 pb-16 bg-gray-900 text-white min-h-[40vh] text-center"
   >
@@ -35,31 +36,25 @@ layout: page
 
 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
   
-  {/* Tarjeta 1 */}
-  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden">
-    <img src="/assets/design-systems.jpg" alt="Are design systems overrated?" className="w-full h-48 object-cover"/>
-    <div className="p-6">
-      <h3 className="text-xl font-bold mb-2">Are design systems overrated?</h3>
-      <p className="text-sm text-gray-500">Featured Article</p>
-    </div>
+  {/* Tarjeta 1 (Ahora solo con texto) */}
+  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
+    <h3 className="text-xl font-bold mb-2">Are design systems overrated?</h3>
+    <p className="text-sm text-gray-500">Featured Article</p>
+    <div className="mt-4 border-t pt-4">Contenido de la tarjeta aquí.</div>
   </div>
 
   {/* Tarjeta 2 */}
-  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden">
-    <img src="/assets/hongo-theme.jpg" alt="Hongo - WordPress Theme" className="w-full h-48 object-cover"/>
-    <div className="p-6">
-      <h3 className="text-xl font-bold mb-2">Hongo - WordPress Theme</h3>
-      <p className="text-sm text-gray-500">Featured Template</p>
-    </div>
+  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
+    <h3 className="text-xl font-bold mb-2">Hongo - WordPress Theme</h3>
+    <p className="text-sm text-gray-500">Featured Template</p>
+    <div className="mt-4 border-t pt-4">Contenido de la tarjeta aquí.</div>
   </div>
 
   {/* Tarjeta 3 */}
-  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden">
-    <img src="/assets/figma-webflow.jpg" alt="Design in Figma, launch in Webflow" className="w-full h-48 object-cover"/>
-    <div className="p-6">
-      <h3 className="text-xl font-bold mb-2">Design in Figma, launch in Webflow</h3>
-      <p className="text-sm text-gray-500">Recommended</p>
-    </div>
+  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
+    <h3 className="text-xl font-bold mb-2">Design in Figma, launch in Webflow</h3>
+    <p className="text-sm text-gray-500">Recommended</p>
+    <div className="mt-4 border-t pt-4">Contenido de la tarjeta aquí.</div>
   </div>
 </div>
 
