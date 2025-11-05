@@ -1,17 +1,12 @@
-import CustomHero from './components/CustomHero.jsx'
-
 ---
 title: We are Creative Agency
 description: La landing page principal de tu agencia.
 layout: page
 ---
 
-<CustomHero>
-
 <HeroSection>
   <div
-    className="flex flex-col items-start p-10 md:p-20 text-white min-h-[60vh] relative overflow-hidden bg-cover bg-center"
-    style={{ backgroundImage: "url('/abstracfondo.png')", backgroundColor: '#19194d' }}
+    className="flex flex-col items-start p-10 md:p-20 bg-gray-900 text-white min-h-[60vh] relative overflow-hidden"
   >
     
     <h1 className="text-5xl md:text-7xl font-bold mb-4 z-10">
@@ -49,3 +44,4 @@ layout: page
 ---
 
 ## Nuestro Trabajo Reciente
+Aquí puedes añadir más contenido en Markdown.
