@@ -1,5 +1,5 @@
 ---
-title: We are Creative Agency 1
+title: We are Creative Agency
 description: La landing page principal de tu agencia.
 layout: page
 ---
@@ -31,10 +31,10 @@ layout: page
     </div>
 
     <div className="flex space-x-4 z-10">
-      <button className="bg-blue-500 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-600 transition duration-300">
+      <button className="bg-blue-500 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-600">
         Sign In
       </button>
-      <button className="bg-white text-blue-500 font-semibold py-3 px-8 rounded-lg border-2 border-blue-500 hover:bg-gray-100 transition duration-300">
+      <button className="bg-white text-blue-500 font-semibold py-3 px-8 rounded-lg border-2 border-blue-500 hover:bg-gray-100">
         Sign Up
       </button>
     </div>
