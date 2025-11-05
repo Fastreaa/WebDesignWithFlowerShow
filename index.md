@@ -37,11 +37,9 @@ layout: page
         Sign Up
       </button>
     </div>
-
-  </div>
+    </div>
 </HeroSection>
 
 ---
 
 ## Nuestro Trabajo Reciente
-Aquí puedes añadir más contenido en Markdown.
