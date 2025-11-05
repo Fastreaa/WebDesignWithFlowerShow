@@ -15,34 +15,16 @@ layout: page
       Creative Agency.
     </h1>
     <p className="text-lg mb-8 max-w-lg z-10">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor.
+      La landing page principal de tu agencia.
     </p>
-
-    <div className="flex w-full max-w-lg mb-8 z-10">
-      <input 
-        type="text" 
-        placeholder="Search something here..."
-        className="flex-grow p-4 text-gray-800 rounded-l-md border-2 border-white focus:outline-none" 
-      />
-      <button className="bg-blue-600 p-4 rounded-r-md hover:bg-blue-700">
-        🔍
-      </button>
-    </div>
-
-    <div className="flex space-x-4 z-10">
-      <button className="bg-blue-500 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-600 transition duration-300">
-        Sign In
-      </button>
-      <button className="bg-white text-blue-500 font-semibold py-3 px-8 rounded-lg border-2 border-blue-500 hover:bg-gray-100 transition duration-300">
-        Sign Up
-      </button>
-    </div>
 
   </div>
 </HeroSection>
 
 ---
 
-## Nuestro Trabajo Reciente
-Aquí puedes añadir más contenido en Markdown.
+# ¡Bienvenidos!
+
+Puedes poner aquí el contenido de los botones en Markdown simple si lo prefieres:
+* [Sign In (Enlace a otra página)](/sign-in)
+* [Sign Up (Enlace de registro)](/sign-up)
