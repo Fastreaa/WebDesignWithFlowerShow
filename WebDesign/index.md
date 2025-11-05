@@ -5,9 +5,18 @@ title: We are Creative Agency
 description: La landing page principal de tu agencia.
 layout: page # Usa un layout de página estándar
 ---
+---
+# FRONTMATTER (Metadatos)
+title: We are Creative Agency
+description: La landing page principal de tu agencia.
+layout: page 
+---
 
 <HeroSection>
-  <div className="flex flex-col items-start p-10 md:p-20 bg-primary-900 text-white min-h-[60vh] relative overflow-hidden">
+  <div 
+    className="flex flex-col items-start p-10 md:p-20 text-white min-h-[60vh] relative overflow-hidden bg-cover bg-center" 
+    style={{ backgroundImage: `url('/images/abstracfondo.png')`, backgroundColor: '#19194d' }}
+  >
     
     {/* Contenido de Texto */}
     <h1 className="text-5xl md:text-7xl font-bold mb-4 z-10">
@@ -19,7 +28,7 @@ layout: page # Usa un layout de página estándar
       sed do eiusmod tempor.
     </p>
 
-    {/* Barra de Búsqueda (Simulada) */}
+    {/* Barra de Búsqueda */}
     <div className="flex w-full max-w-lg mb-8 z-10">
       <input 
         type="text" 
@@ -27,7 +36,8 @@ layout: page # Usa un layout de página estándar
         className="flex-grow p-4 text-gray-800 rounded-l-md border-2 border-white focus:outline-none" 
       />
       <button className="bg-blue-600 p-4 rounded-r-md hover:bg-blue-700">
-              </button>
+        🔍 
+      </button>
     </div>
 
     {/* Botones */}
@@ -40,13 +50,8 @@ layout: page # Usa un layout de página estándar
       </button>
     </div>
 
-    {/* ESPACIO PARA LA IMAGEN DE FONDO (Requiere CSS/Tailwind) */}
-    
-    {/* La imagen de fondo debe ser un componente React personalizado si quieres replicar el efecto animado. 
-        Para una versión estática, puedes usar una imagen de fondo simple. */}
-
   </div>
 </HeroSection>
 
 ## Nuestro Trabajo Reciente
-Aquí puedes añadir más contenido en Markdown sobre tu agencia.
+Aquí puedes añadir más contenido en Markdown.
