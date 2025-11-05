@@ -5,7 +5,7 @@ layout: page
 ---
 
 <HeroSection>
-  {/* Bloque Superior Oscuro (Hero) */}
+  {/* Bloque Superior Oscuro (La Sección Principal de "One Page Love") */}
   <div
     className="flex flex-col items-center justify-center pt-20 pb-16 bg-gray-900 text-white min-h-[40vh] text-center"
   >
@@ -28,34 +28,36 @@ layout: page
 </HeroSection>
 
 {/* SECCIÓN DE CONTENIDO PRINCIPAL (El Área de Tarjetas Claras) */}
-<div className="max-w-6xl mx-auto px-4 py-16">
+{/* Este div externo proporciona el fondo blanco entre la sección hero y las tarjetas */}
+<div className="bg-white py-16"> 
+  <div className="max-w-6xl mx-auto px-4">
 
-<div className="text-center mb-8">
-    <h3 className="uppercase text-sm font-semibold tracking-widest text-gray-500">LATEST WEBSITE INSPIRATION</h3>
-</div>
+    <div className="text-center mb-12">
+        <h3 className="uppercase text-sm font-semibold tracking-widest text-gray-500">LATEST WEBSITE INSPIRATION</h3>
+    </div>
 
-<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-  
-  {/* Tarjeta 1 (Ahora solo con texto) */}
-  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
-    <h3 className="text-xl font-bold mb-2">Are design systems overrated?</h3>
-    <p className="text-sm text-gray-500">Featured Article</p>
-    <div className="mt-4 border-t pt-4">Contenido de la tarjeta aquí.</div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      {/* Tarjeta 1 */}
+      <div className="bg-gray-50 shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
+        <h3 className="text-xl font-bold mb-2">Are design systems overrated?</h3>
+        <p className="text-sm text-gray-500">Featured Article</p>
+        <div className="mt-4 border-t pt-4 text-gray-700">Contenido de la tarjeta aquí.</div>
+      </div>
+
+      {/* Tarjeta 2 */}
+      <div className="bg-gray-50 shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
+        <h3 className="text-xl font-bold mb-2">Hongo - WordPress Theme</h3>
+        <p className="text-sm text-gray-500">Featured Template</p>
+        <div className="mt-4 border-t pt-4 text-gray-700">Contenido de la tarjeta aquí.</div>
+      </div>
+
+      {/* Tarjeta 3 */}
+      <div className="bg-gray-50 shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
+        <h3 className="text-xl font-bold mb-2">Design in Figma, launch in Webflow</h3>
+        <p className="text-sm text-gray-500">Recommended</p>
+        <div className="mt-4 border-t pt-4 text-gray-700">Contenido de la tarjeta aquí.</div>
+      </div>
+    </div>
   </div>
-
-  {/* Tarjeta 2 */}
-  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
-    <h3 className="text-xl font-bold mb-2">Hongo - WordPress Theme</h3>
-    <p className="text-sm text-gray-500">Featured Template</p>
-    <div className="mt-4 border-t pt-4">Contenido de la tarjeta aquí.</div>
-  </div>
-
-  {/* Tarjeta 3 */}
-  <div className="bg-white shadow-lg border border-gray-100 rounded-lg overflow-hidden p-6 min-h-[300px]">
-    <h3 className="text-xl font-bold mb-2">Design in Figma, launch in Webflow</h3>
-    <p className="text-sm text-gray-500">Recommended</p>
-    <div className="mt-4 border-t pt-4">Contenido de la tarjeta aquí.</div>
-  </div>
-</div>
-
 </div>
