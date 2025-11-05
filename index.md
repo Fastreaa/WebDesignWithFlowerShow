@@ -4,13 +4,11 @@ description: La landing page principal de tu agencia.
 layout: page
 ---
 
-<HeroSection>// CÓDIGO PARA PRUEBA (SOLO FONDO SÓLIDO AZUL):
-  <div 
-    className="flex flex-col items-start p-10 md:p-20 text-white min-h-[60vh] relative overflow-hidden" 
-    style={{ backgroundColor: '#19194d' }}
+<HeroSection>
+  <div
+    className="flex flex-col items-start p-10 md:p-20 text-white min-h-[60vh] relative overflow-hidden bg-cover bg-center"
+    style={{ backgroundImage: "url('/abstracfondo.png')", backgroundColor: '#19194d' }}
   >
-    
-    {/* ... (Todo el contenido de tu Landing Page) ... */}
     
     <h1 className="text-5xl md:text-7xl font-bold mb-4 z-10">
       We are <br />
@@ -47,3 +45,4 @@ layout: page
 ---
 
 ## Nuestro Trabajo Reciente
+Aquí puedes añadir más contenido en Markdown.
