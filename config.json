@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "title": "Company",
+    "links": [
+      {
+        "href": "/about",
+        "name": "About"
+      },
+      {
+        "href": "/how-it-works",
+        "name": "How it works?"
+      },
+      {
+        "href": "/contact-us",
+        "name": "Contact Us"
+      }
+    ]
+  },
+  "theme": {
+    "extend": {
+      "colors": {
+        "primary": {
+          "900": "#19194d" 
+        }
+      }
+    }
+  },
+  "colorMode": "dark" 
+}
